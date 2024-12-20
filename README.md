@@ -1,4 +1,4 @@
-# Python String
+# Python String 2
 
 Python String PDF:
 https://drive.google.com/file/d/1JE02xr12iIN_EY8-slrw2Wx0KqwH00pN/view?usp=sharing
@@ -10,18 +10,18 @@ https://drive.google.com/file/d/1JE02xr12iIN_EY8-slrw2Wx0KqwH00pN/view?usp=shari
 
 **Problem:**
 
-Count the number of vowels in a given string.
+Extract email addresses from a file.
 
 **Example:**
 
-	Input: "Hello World"  
-	Output: 3  
+	Input: "Contact us at support@example.com or admin@example.org"  
+	Output:  ["support@example.com", "admin@example.org"]  
 	
-	Input: "Python Programming"  
-	Output: 4  
-	
-	Input: "BCDFG"  
-	Output: 0  
+	Input:  "No emails here!"  
+	Output:  []  
+
+ 	Input:  "My email is staff@example.com"  
+	Output:  ["staff@example.com"]  
 
 ---
 
@@ -29,18 +29,18 @@ Count the number of vowels in a given string.
 
 **Problem:**
 
-Check if a given string is a palindrome (reads the same forward and backward).
+Mask the first 12 digits of credit card numbers in a string.
 
 **Example:**
 
-	Input: "madam"  
-	Output: True  
+	Input: "My credit card is 1234567812345678"  
+	Output: "****-****-****-5678"  
 	
-	Input: "racecar"  
-	Output: True  
-	
-	Input: "hello"  
-	Output: False  
+	Input: "No card here."  
+	Output: ""   
+ 
+ 	Input: "My card number is 9988776612347869"  
+	Output: "****-****-****-7869"   
 
 ---
 
@@ -48,36 +48,18 @@ Check if a given string is a palindrome (reads the same forward and backward).
 
 **Problem:**
 
-Remove all spaces from a given string.
+Find duplicate characters in a string.
 
 **Example**
 
-	Input: "Hello World"  
-	Output: "HelloWorld"  
+	Input: "programming"  
+	Output: ['r', 'g', 'm']  
 	
-	Input: "Python Programming Language"  
-	Output: "PythonProgrammingLanguage"  
+	Input: "hello"  
+	Output: ['l']  
 	
-	Input: "  Remove   spaces  "  
-	Output: "Removespaces"  
+	Input: "abcdef"  
+	Output: []   
+ 
 ---
 
-## Exercise 4
-
-**Problem:**
-
-Count how often each word appears in a given string. Return dictionary that contains word and its count.
-
-**Example**
-
-	Input: "hello hello world"  
-	Output:  {"hello": 2, "world": 1}
-	
-	Input: "this is a test this is"  
-	Output:  {"this": 2, "is": 2, "a": 1, "test": 1} 
-	
-	Input: "count count count"  
-	Output:  {"count": 3} 
-
-
----
